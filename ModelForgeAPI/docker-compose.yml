@@ -1,0 +1,18 @@
+﻿version: '3.9'
+
+services:
+  api:
+    image: generation-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"                  # HTTP
+      # - "8443:8443"                # HTTPS (если настроите сертификат)
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development   # Для локальной отладки с Swagger
+      # - ASPNETCORE_URLS=https://+:8443;http://+:8080
+    # volumes:
+      # Опционально: для hot-reload в разработке (требует dotnet watch)
+      # -.:/src
+    restart: unless-stopped

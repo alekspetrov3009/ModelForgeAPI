@@ -1,0 +1,6 @@
+@ModelForgeAPI_HostAddress = http://localhost:5157
+
+GET {{ModelForgeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
