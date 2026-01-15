@@ -18,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="API\" />
     <Folder Include="Application\Generation\" />
     <Folder Include="Application\Structure\" />
     <Folder Include="Application\UserItems\" />
