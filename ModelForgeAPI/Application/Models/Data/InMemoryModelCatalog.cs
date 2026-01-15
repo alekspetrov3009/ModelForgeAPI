@@ -8,7 +8,6 @@ public static class InMemoryModelCatalog
     {
         new ModelListItemDto(1, "model1", "Первая модель"),
         new ModelListItemDto(2, "model2", "Вторая модель"),
-        // легко добавлять новые: new ModelListItemDto(3, "model3", "Третья модель")
     };
 
     private static readonly Dictionary<int, ModelParametersResponseDto> ModelParameters = new()

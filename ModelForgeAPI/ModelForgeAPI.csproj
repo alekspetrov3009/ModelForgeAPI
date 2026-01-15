@@ -24,6 +24,7 @@
     <Folder Include="Application\UserItems\" />
     <Folder Include="Domain\" />
     <Folder Include="Infrastructure\ExternalServices\" />
+    <Folder Include="Infrastructure\Persistance\" />
     <Folder Include="Shared\" />
   </ItemGroup>
 
